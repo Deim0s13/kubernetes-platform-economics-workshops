@@ -19,27 +19,17 @@
 
 ## Document purpose
 
-This brief presents the findings and recommendation from a five-workshop
-platform economics assessment of [ORGANISATION]'s Kubernetes estate.
+This brief presents the findings and recommendations from a five-workshop platform economics assessment of [ORGANISATION]'s Kubernetes estate.
 
-It is prepared for: [CIO] | [GM TECHNOLOGY AND OPERATIONS] | [FINANCE] |
-[PROCUREMENT]
+It is prepared for: [CIO] | [GM TECHNOLOGY AND OPERATIONS] | [FINANCE] | [PROCUREMENT]
 
-It covers what the platform estate costs today, what value it delivers,
-what the realistic options are for improving cost per outcome, and what
-the recommended next steps are.
+It covers the platform estate's current costs, the value it delivers, realistic options for improving cost per outcome, and the recommended next steps.
 
-The assessment used FinOps, TBM, DORA, and SPACE as reference frameworks.
-Every number carries a confidence rating — High, Medium, or Low — based
-on whether it is measured, estimated, or proxied. Those ratings are part
-of the output, not a caveat to it.
+The assessment used FinOps, TBM, DORA, and SPACE as reference frameworks. Every number carries a confidence rating (High, Medium, or Low) based on whether it is measured, estimated, or proxied. Those ratings are part of the output, not a caveat.
 
-> This document is produced after Workshop 5 and reviewed with the
-> platform team before going to the leadership audience.
+> This document is produced after Workshop 5 and reviewed with the > platform team before going to the leadership audience.
 >
-> All figures are carried forward from the working documents produced
-> across Workshops 1 through 5. Do not summarise from memory — follow
-> the carry-forward pointers in each section.
+> All figures are carried forward from the working documents produced > across Workshops 1 through 5. Do not summarise from memory, follow > the carry-forward pointers in each section.
 
 ---
 
@@ -47,20 +37,15 @@ of the output, not a caveat to it.
 
 # Section 1 — Executive Summary
 
-> Write this section last. It summarises what is in the sections that
-> follow — not what you expect to find before writing them.
-> Target length: 1 to 2 pages.
+> Write this section last. It summarises what is in the sections that > follow — not what you expect to find before writing them. > Target length: 1 to 2 pages.
 
 ## What we assessed
 
 > State the scope clearly and briefly.
 
-[ORGANISATION]'s Kubernetes estate was assessed across [TIME WINDOW].
-The platforms in scope for the baseline were [PLATFORMS]. [PLATFORMS]
-were assessed as scenario options.
+[ORGANISATION]'s Kubernetes estate was assessed across [TIME WINDOW]. The platforms in scope for the baseline were [PLATFORMS]. [PLATFORMS] were assessed as scenario options.
 
-The assessment covered cloud infrastructure, managed service fees,
-platform tooling, subscriptions, operating effort, and shared services.
+The assessment covered cloud infrastructure, managed service fees, platform tooling, subscriptions, operating effort, and shared services.
 
 > Carry forward from: assumptions-register.md — Section 1
 
@@ -77,7 +62,7 @@ platform tooling, subscriptions, operating effort, and shared services.
 
 ## Recommended path
 
-> One paragraph. What, why, and immediate next step.
+> One paragraph. What, why, and the immediate next step.
 
 > Carry forward from: scenario-comparison.md — Recommendation section
 
@@ -85,7 +70,7 @@ platform tooling, subscriptions, operating effort, and shared services.
 
 ## Decisions required from leadership
 
-> Surface these explicitly — not buried later in the document.
+> Surface these explicitly, not buried later in the document.
 
 1. [DECISION 1]
 2. [DECISION 2]
@@ -110,9 +95,7 @@ platform tooling, subscriptions, operating effort, and shared services.
 
 ## How we structured costs
 
-Platform costs were organised using a TBM-aligned taxonomy — an industry
-standard for classifying technology costs that Finance and IT can both
-work from. Six cost buckets were used:
+Platform costs were organised using a TBM-aligned taxonomy, an industry-standard for classifying technology costs that Finance and IT can both work from. Six cost buckets were used:
 
 1. Cloud infrastructure
 2. Managed service fees
@@ -125,14 +108,9 @@ work from. Six cost buckets were used:
 
 ## How we allocated costs
 
-Shared costs were allocated using FinOps allocation principles — a
-standard operating model for cloud and platform cost management. The
-specific rules agreed for this assessment are documented in the
-Assumptions Register (see Appendix A).
+Shared costs were allocated using FinOps allocation principles — a standard operating model for cloud and platform cost management. The specific rules agreed for this assessment are documented in the Assumptions Register (see Appendix A).
 
-The approach used showback — making costs visible to teams and products
-without implementing chargeback. This is appropriate for a first-pass
-assessment.
+The approach used is showback, making costs visible to teams and products without implementing chargeback. This is appropriate for a first-pass assessment.
 
 > Carry forward from: assumptions-register.md — Section 3
 
@@ -140,14 +118,12 @@ assessment.
 
 Platform value was assessed using DORA and SPACE as reference frameworks:
 
-- **DORA** — four metrics for software delivery performance: deployment
-frequency, lead time, change failure rate, and time to restore service
-- **SPACE** — developer productivity across satisfaction, performance,
-activity, communication, and efficiency
+- **DORA** — four metrics for software delivery performance: deployment frequency, lead time, change failure rate, and time to restore service
+- **SPACE** — developer productivity across satisfaction, performance, activity, communication, and efficiency
 
 Both frameworks are industry standards and are not vendor-specific.
 
-> Carry forward from: value-risk-scorecard.md
+> Carry forward from: value-risk-scorecard.md.
 
 ## Confidence ratings
 
@@ -159,8 +135,7 @@ Every figure in this brief carries a confidence rating:
 | Medium | Based on an estimate with a reasonable basis |
 | Low | Based on a proxy or rough estimate — treat as indicative |
 
-Where data was not available, the approach taken — estimate, proxy,
-or exclusion — is documented in the Assumptions Register (Appendix A).
+Where data was not available, the approach taken, estimate, proxy, or exclusion, is documented in the Assumptions Register (Appendix A).
 
 ---
 
@@ -217,7 +192,7 @@ or exclusion — is documented in the Assumptions Register (Appendix A).
 
 ## Key cost drivers
 
-> Summarise the two or three biggest drivers of cost.
+> Summarise the two or three biggest cost drivers.
 > Carry forward from: cost-taxonomy-baseline.md — Key findings
 
 1. [DRIVER 1]
@@ -242,11 +217,9 @@ or exclusion — is documented in the Assumptions Register (Appendix A).
 
 ## What unit economics shows us
 
-Total spend is a number. Unit economics is what that number means.
-Instead of "we spend X on Kubernetes" this section answers: what does
-the platform cost per useful outcome?
+Total spend is a number. Unit economics is what that number means. Instead of "we spend X on Kubernetes", this section answers: what does the platform cost per useful outcome?
 
-## Agreed unit metrics and baseline values
+## Agreed on unit metrics and baseline values
 
 > Carry forward from: unit-metrics-definition.md — Unit economics summary
 
@@ -262,16 +235,14 @@ the platform cost per useful outcome?
 
 > Carry forward from: unit-metrics-definition.md — Unit economics narrative
 
-[NARRATIVE — what do these numbers tell us about the cost efficiency
-of the platform estate?]
+[NARRATIVE: What do these numbers tell us about the cost efficiency of the platform estate?]
 
 ## Showback summary
 
 > Summarise the showback view from Workshop 3.
 > Carry forward from: showback-view.md — Key findings
 
-[SHOWBACK SUMMARY — which teams or namespaces carry the highest cost,
-and what does that tell us?]
+[SHOWBACK SUMMARY: Which teams or namespaces carry the highest cost, and what does that tell us?]
 
 ---
 
@@ -281,14 +252,11 @@ and what does that tell us?]
 
 > Target length: 1 to 2 pages.
 > Carry all figures forward from value-risk-scorecard.md.
-> This section must sit alongside cost — not after it as an afterthought.
+> This section must sit alongside cost, not after it as an afterthought.
 
 ## Why value alongside cost
 
-Cost without value is an incomplete picture. A platform that looks
-expensive may be delivering significant returns in delivery speed,
-reliability, security posture, and developer productivity. This section
-ensures platform decisions are made with a complete view.
+Cost without value is an incomplete picture. A platform that looks expensive may deliver significant returns in terms of delivery speed, reliability, security posture, and developer productivity. This section ensures platform decisions are made with a complete view.
 
 ## Value and risk scorecard
 
@@ -319,8 +287,7 @@ ensures platform decisions are made with a complete view.
 **Where there is room to improve:**
 [NARRATIVE]
 
-**What would be at risk if cost were optimised without considering
-this scorecard:**
+**What would be at risk if cost were optimised without considering this scorecard:**
 [NARRATIVE]
 
 ---
@@ -334,15 +301,11 @@ this scorecard:**
 
 ## How scenarios were developed
 
-Four scenarios were evaluated against the cost baseline, unit economics,
-value scorecard, and workload placement matrix from the previous sections.
-The workload placement matrix (see Appendix B) identified consolidation
-candidates, justified exceptions, and managed platform candidates —
-providing the evidence base for each scenario.
+Four scenarios were evaluated against the cost baseline, unit economics, value scorecard, and workload placement matrix from the previous sections. The workload placement matrix (see Appendix B) identified consolidation candidates, justified exceptions, and managed platform candidates — providing the evidence base for each scenario.
 
 ## Scenario summary
 
-> Carry forward from: scenario-comparison.md — Scenario Summary
+> Carry forward from: scenario-comparison.md — Scenario Summary.
 
 | | Scenario A | Scenario B | Scenario C | Scenario D |
 |-|------------|------------|------------|------------|
