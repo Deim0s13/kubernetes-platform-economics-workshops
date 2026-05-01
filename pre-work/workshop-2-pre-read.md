@@ -9,24 +9,19 @@
 
 ## What this is
 
-This document is your pre-read for Workshop 2. It takes around ten minutes
-to read and will make the session more productive for everyone in the room.
+This document is your pre-read for Workshop 2. It takes around ten minutes to read and will make the session more productive for everyone in the room.
 
-Workshop 2 is where we start building the cost model. By the end of this
-session we will have a cost taxonomy agreed and a baseline model skeleton
-populated with the data that has come in so far.
+Workshop 2 is where we start building the cost model. By the end of this session, we will have a cost taxonomy agreed and a baseline model skeleton populated with the data that has come in so far.
 
 ---
 
 ## What we are doing in Workshop 2
 
-By the end of this session we will have:
+By the end of this session, we will have:
 
-- A cost taxonomy — a structured way of grouping spend that Finance and
-IT can both work from
+- A cost taxonomy, a structured way of grouping spend that Finance and IT can both work from
 - A baseline model skeleton with known spend mapped in and gaps identified
-- A clear view of which cost buckets are well understood and which need
-more data
+- A clear view of which cost buckets are well understood and which need more data
 - An updated data gaps list with owners and revised due dates where needed
 - An initial view of fixed versus variable costs across the estate
 
@@ -34,29 +29,21 @@ more data
 
 ## What a cost taxonomy is — and why it matters
 
-A cost taxonomy is simply a structured way of grouping technology costs
-into categories that are consistent, comparable, and recognisable to
-Finance and Procurement.
+A cost taxonomy is simply a structured way of grouping technology costs into categories that are consistent, comparable, and recognisable to Finance and Procurement.
 
-Without one, platform cost ends up scattered across invoices, cloud bills,
-team budgets, and people's heads. The taxonomy brings it together into a
-single structure so that:
+Without one, platform cost ends up scattered across invoices, cloud bills, team budgets, and people's heads. The taxonomy brings it together into a single structure so that:
 
-- IT and Finance are working from the same categories
-- Costs can be compared across platforms and over time
-- The output is auditable — every number has a home and a source
+- IT and Finance are working from the same categories.
+- Costs can be compared across platforms and over time.
+- The output is auditable; every number has a home and a source.
 
-We build ours using TBM — Technology Business Management — as the
-reference framework. TBM is a widely used industry standard for
-technology cost classification. It gives us a language Finance will
-recognise without requiring anyone to become a TBM expert.
+We build ours using TBM (Technology Business Management) as the reference framework. TBM is a widely used industry standard for technology cost classification. It gives us a language that Finance will recognise without requiring anyone to become a TBM expert.
 
 ---
 
 ## The cost taxonomy we will use
 
-We organise platform costs into six buckets. Every cost in scope sits
-in one of these.
+We organise platform costs into six buckets. Every cost in scope sits in one of these.
 
 ### Cloud infrastructure
 
@@ -69,8 +56,7 @@ Examples:
 
 ### Managed service fees
 
-Fees charged by cloud providers for managed Kubernetes services, where
-applicable.
+Fees charged by cloud providers for managed Kubernetes services, where applicable.
 
 Examples:
 - EKS cluster management fees
@@ -79,8 +65,7 @@ Examples:
 
 ### Platform tooling
 
-The software and services that make the platforms operable — above and
-beyond raw infrastructure.
+The software and services that make the platforms operational, beyond raw infrastructure.
 
 Examples:
 - Observability (monitoring, logging, alerting)
@@ -99,9 +84,7 @@ Examples:
 
 ### Operating effort
 
-The time your platform team spends running, maintaining, and improving
-the platforms. This is often the largest hidden cost — and the one most
-commonly left out of cost reviews.
+The time your platform team spends running, maintaining, and improving the platforms. This is often the highest hidden cost, and the one most commonly left out of cost reviews.
 
 Examples:
 - Upgrade and patching cycles
@@ -109,13 +92,11 @@ Examples:
 - Onboarding new teams and workloads
 - Building and maintaining golden paths and standards
 
-We capture this as an estimate — a rough time split across activities is
-enough to put a number on it.
+We capture this as an estimate — a rough time split across activities is enough to put a number on it.
 
 ### Shared services
 
-Costs that sit beneath the platforms and serve them without being
-attributable to one platform alone.
+Costs that sit beneath the platforms and serve them without being attributable to any one platform.
 
 Examples:
 - Identity and access management (IAM)
@@ -127,81 +108,61 @@ Examples:
 
 ## Fixed versus variable costs
 
-As we populate the baseline, we will distinguish between fixed and
-variable costs. This matters because they behave differently and require
+As we populate the baseline, we will distinguish between fixed and variable costs. This matters because they behave differently and require
 different levers to change.
 
-**Fixed costs** do not change with usage in the short term. A platform
-subscription fee is the same whether you run ten workloads or a hundred.
-Reducing fixed costs requires a structural change — renegotiating a
-contract, consolidating platforms, or moving to a different model.
+**Fixed costs** do not change with usage in the short term. A platform subscription fee is the same whether you run ten workloads or a hundred. Reducing fixed costs requires structural change, renegotiating contracts, consolidating platforms, or moving to a different model.
 
-**Variable costs** scale with usage. Compute consumption, storage, and
-data egress go up and down with demand. Reducing variable costs requires
-operational changes — rightsizing, autoscaling, better utilisation, or
-workload consolidation.
+**Variable costs** scale with usage. Compute consumption, storage, and data egress go up and down with demand. Reducing variable costs requires operational changes — rightsizing, autoscaling, better utilisation, or workload consolidation.
 
-Understanding the split helps us identify which levers are available and
-how quickly they can be pulled.
+Understanding the split helps us identify which levers are available and how quickly they can be pulled.
 
 ---
 
 ## What to bring to Workshop 2
 
-If you have actioned your data request items from Workshop 1, please
-share them before the session if you can. Even partial data is useful.
+If you have actioned your data request items from Workshop 1, please share them before the session if you can. Even partial data is useful.
 
 It would particularly help to have:
 
-- **Cloud billing exports** — AWS Cost and Usage Report (CUR) or Azure
-cost export, even for a single month
-- **Tooling list** — what sits across your platforms and roughly what
-it costs
-- **Subscription details** — platform licences or support agreements
-in scope
-- **A rough cluster inventory** — platforms, environments, approximate
-node counts
+- **Cloud billing exports** — AWS Cost and Usage Report (CUR) or Azure cost export, even for a single month
+- **Tooling list** — what sits across your platforms and roughly what it costs
+- **Subscription details** — platform licences or support agreements in scope
+- **A rough cluster inventory** — platforms, environments, approximate node counts
 
-If some items are not ready yet, do not worry. We will map what we have,
-identify the gaps, and agree how to fill them.
+If some items are not ready yet, do not worry. We will map what we have, identify the gaps, and agree on how to fill them.
 
 ---
 
 ## A note on data quality
 
-You will not have perfect data at this stage. That is expected and
-completely fine.
+You will not have perfect data at this stage. That is expected and completely fine.
 
-We use confidence ratings throughout — High, Medium, or Low — to be
-honest about what is measured versus estimated. A baseline with clear
-confidence ratings is more trustworthy than one that pretends every
-number is exact.
+We use confidence ratings throughout — High, Medium, or Low — to be honest about what is measured versus estimated. A baseline with clear confidence ratings is more trustworthy than one that pretends every number is exact.
 
-Where data is missing we use one of three approaches:
+Where data is missing, we use one of three approaches:
 
 - **Estimate with a low confidence rating** — the most common approach
 - **Range** — when even an estimate feels too speculative
 - **Gap** — when we genuinely have no basis for an estimate
 
-Every gap is noted in the Assumptions Register with an owner and a
-plan to close it.
+Every gap is noted in the Assumptions Register with an owner and a plan to close it.
 
 ---
 
 ## What you will have at the end of Workshop 2
 
 - A cost taxonomy — the structure every subsequent workshop builds on
-- A baseline model skeleton — known spend mapped in, gaps identified
+- A baseline model skeleton — known spend mapped in, gaps identified.
 - A fixed versus variable cost split — even if partial at this stage
 - An updated data gaps list — with owners and revised due dates
-- A clear sense of where spend concentrates and where we need more data
+- A clear sense of where spending concentrates and where we need more data
 
 ---
 
 ## Questions before we meet?
 
-If anything in this pre-read raises questions, get in touch with
-[FACILITATOR] before the session.
+If anything in this pre-read raises questions, get in touch with [FACILITATOR] before the session.
 
 See you on [DATE] at [TIME].
 
