@@ -64,11 +64,11 @@ Workshop 0 is a setup session. It is shorter and lighter than the workshops that
 
 By the end of Workshop 0, we will have agreed:
 
-- **Scope shape** — which platforms and environments we are looking at, and what time window we are working with
-- **Delivery model** — whether your team runs the workshops using our toolkit, or whether we facilitate together
-- **Data owners** — who in your team owns which inputs, so we can request the right things from the right people
-- **Ways of working** — where documents live, how we handle version control, and how we communicate between sessions
-- **Minimum viable data** — the small set of inputs we need to get started, and a realistic plan for getting them
+- **Scope shape:** which platforms and environments we are looking at, and what time window we are working with
+- **Delivery model:** whether your team runs the workshops using our toolkit, or whether we facilitate together
+- **Data owners:** who in your team owns which inputs, so we can request the right things from the right people
+- **Ways of working:** where documents live, how we handle version control, and how we communicate between sessions
+- **Minimum viable data:** the small set of inputs we need to get started, and a realistic plan for getting them
 
 ---
 
@@ -118,7 +118,7 @@ The goal is decision quality, not spreadsheet precision.
 
 ## What you will have at the end of all five workshops
 
-A short decision brief — written for technology leadership, Finance, and Procurement — that clearly shows:
+A short decision brief written for technology leadership, Finance, and Procurement that clearly shows:
 
 - What you spend, what drives it, and how confident you are in the numbers
 - Cost per outcome across your Kubernetes estate

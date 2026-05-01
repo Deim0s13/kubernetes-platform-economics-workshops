@@ -22,7 +22,7 @@ Before the session, it would be helpful to have the following available if you c
 - Cloud billing exports for AWS and Azure, even for a single month, are a useful starting point.
 - A rough tooling list, what sits across your platforms for observability, security, CI/CD, and backup - Any subscription or licence details you have to hand
 
-If any of the data request items from Workshop 1 are ready, please share them before the session so we can get a head start on the baseline skeleton. If some items are still in progress, that is fine — we will note the gaps and work with what we have.
+If any of the data request items from Workshop 1 are ready, please share them before the session so we can get a head start on the baseline skeleton. If some items are still in progress, that is fine, we will note the gaps and work with what we have.
 
 The pre-read explains what a cost taxonomy is, why we build it the way we do, and what you will have at the end of the session.
 

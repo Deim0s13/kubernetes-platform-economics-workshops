@@ -19,12 +19,12 @@ Workshop 1 is where the real work begins. We will agree on the scope of the asse
 
 By the end of this session, we will have agreed:
 
-- **Scope** — which platforms, environments, and cost types are included
-- **Time window** — the reporting period we are working with
-- **Cost treatment rules** — how we handle shared costs, non-production environments, and anything that sits across multiple platforms
-- **Unit metrics shortlist** — the three to five measures we will use to report cost per outcome
-- **Data owners** — who provide which inputs and by when
-- **Assumptions Register v1** — a versioned record of every decision we make about scope and cost treatment.
+- **Scope:** which platforms, environments, and cost types are included
+- **Time window:** the reporting period we are working with
+- **Cost treatment rules:** how we handle shared costs, non-production environments, and anything that sits across multiple platforms
+- **Unit metrics shortlist:** the three to five measures we will use to report cost per outcome
+- **Data owners:** who provide which inputs and by when
+- **Assumptions Register v1:** a versioned record of every decision we make about scope and cost treatment.
 
 ---
 
@@ -42,11 +42,11 @@ The Assumptions Register we built in this session fixes that. It makes every dec
 
 When we talk about platform costs, we mean more than just the subscription or cloud bill. A complete picture includes:
 
-- **Cloud infrastructure** — compute, storage, network, and egress across all platforms
-- **Managed service fees** — charges for managed Kubernetes services where applicable
-- **Platform tooling** — observability, security scanning, CI/CD, backup, and disaster recovery
-- **Subscriptions** — any platform licences or support agreements
-- **Operating effort** — the time your team spends running, maintaining, and improving the platforms
+- **Cloud infrastructure:** compute, storage, network, and egress across all platforms
+- **Managed service fees:** charges for managed Kubernetes services where applicable
+- **Platform tooling:** observability, security scanning, CI/CD, backup, and disaster recovery
+- **Subscriptions:** any platform licences or support agreements
+- **Operating effort:** the time your team spends running, maintaining, and improving the platforms
 
 Some of these are easy to find on an invoice. Others, particularly operating effort, require an estimate. Both matter, and we will assign appropriate confidence ratings to both.
 
@@ -76,11 +76,11 @@ When Finance asks, “How did you treat shared tooling costs?” the answer is i
 
 Nothing needs to be formal or complete. Having a rough sense of the following will make the session more productive:
 
-- **Cluster inventory** — platforms, environments, approximate counts. Even a rough list is fine.
-- **Cloud billing owners** — who in your team can access AWS Cost and Usage Reports and Azure cost exports
-- **Tooling landscape** — what sits across your platforms for observability, security, CI/CD, and backup
-- **Subscription overview** — a high-level sense of what platform licences or agreements are in place
-- **Known pain points** — anything that feels expensive, duplicated, or harder than it should be
+- **Cluster inventory:** platforms, environments, approximate counts. Even a rough list is fine.
+- **Cloud billing owners:** who in your team can access AWS Cost and Usage Reports and Azure cost exports
+- **Tooling landscape:** what sits across your platforms for observability, security, CI/CD, and backup
+- **Subscription overview:** a high-level sense of what platform licences or agreements are in place
+- **Known pain points:** anything that feels expensive, duplicated, or harder than it should be
 
 If you do not have all of this, do not worry. We will work through it together in the session.
 

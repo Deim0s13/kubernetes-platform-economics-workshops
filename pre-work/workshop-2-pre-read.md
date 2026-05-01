@@ -111,9 +111,9 @@ Examples:
 As we populate the baseline, we will distinguish between fixed and variable costs. This matters because they behave differently and require
 different levers to change.
 
-**Fixed costs** do not change with usage in the short term. A platform subscription fee is the same whether you run ten workloads or a hundred. Reducing fixed costs requires structural change, renegotiating contracts, consolidating platforms, or moving to a different model.
+**Fixed costs:** do not change with usage in the short term. A platform subscription fee is the same whether you run ten workloads or a hundred. Reducing fixed costs requires structural change, renegotiating contracts, consolidating platforms, or moving to a different model.
 
-**Variable costs** scale with usage. Compute consumption, storage, and data egress go up and down with demand. Reducing variable costs requires operational changes — rightsizing, autoscaling, better utilisation, or workload consolidation.
+**Variable costs:** scale with usage. Compute consumption, storage, and data egress go up and down with demand. Reducing variable costs requires operational changes — rightsizing, autoscaling, better utilisation, or workload consolidation.
 
 Understanding the split helps us identify which levers are available and how quickly they can be pulled.
 
@@ -125,10 +125,10 @@ If you have actioned your data request items from Workshop 1, please share them 
 
 It would particularly help to have:
 
-- **Cloud billing exports** — AWS Cost and Usage Report (CUR) or Azure cost export, even for a single month
-- **Tooling list** — what sits across your platforms and roughly what it costs
-- **Subscription details** — platform licences or support agreements in scope
-- **A rough cluster inventory** — platforms, environments, approximate node counts
+- **Cloud billing exports:** AWS Cost and Usage Report (CUR) or Azure cost export, even for a single month
+- **Tooling list:** what sits across your platforms and roughly what it costs
+- **Subscription details:** platform licences or support agreements in scope
+- **A rough cluster inventory:** platforms, environments, approximate node counts
 
 If some items are not ready yet, do not worry. We will map what we have, identify the gaps, and agree on how to fill them.
 
@@ -138,13 +138,13 @@ If some items are not ready yet, do not worry. We will map what we have, identif
 
 You will not have perfect data at this stage. That is expected and completely fine.
 
-We use confidence ratings throughout — High, Medium, or Low — to be honest about what is measured versus estimated. A baseline with clear confidence ratings is more trustworthy than one that pretends every number is exact.
+We use confidence ratings throughout High, Medium, or Low to be honest about what is measured versus estimated. A baseline with clear confidence ratings is more trustworthy than one that pretends every number is exact.
 
 Where data is missing, we use one of three approaches:
 
-- **Estimate with a low confidence rating** — the most common approach
-- **Range** — when even an estimate feels too speculative
-- **Gap** — when we genuinely have no basis for an estimate
+- **Estimate with a low confidence rating:** the most common approach
+- **Range:** when even an estimate feels too speculative
+- **Gap:** when we genuinely have no basis for an estimate
 
 Every gap is noted in the Assumptions Register with an owner and a plan to close it.
 
@@ -152,10 +152,10 @@ Every gap is noted in the Assumptions Register with an owner and a plan to close
 
 ## What you will have at the end of Workshop 2
 
-- A cost taxonomy — the structure every subsequent workshop builds on
-- A baseline model skeleton — known spend mapped in, gaps identified.
-- A fixed versus variable cost split — even if partial at this stage
-- An updated data gaps list — with owners and revised due dates
+- A cost taxonomy, the structure every subsequent workshop builds on
+- Baseline model skeleton: known spend mapped in; gaps identified.
+- A fixed versus variable cost split, even if partial at this stage
+- An updated data gaps list, with owners and revised due dates
 - A clear sense of where spending concentrates and where we need more data
 
 ---
