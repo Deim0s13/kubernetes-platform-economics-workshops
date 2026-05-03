@@ -17,15 +17,10 @@
 
 ## What this document is
 
-This is the scenario comparison for the platform economics assessment.
-It evaluates four scenarios across cost, value and risk, time to value,
-and dependencies — and forms the evidence base for the recommendation
-in the decision brief.
+This is the scenario comparison for the platform economics assessment. It evaluates four scenarios across cost, value and risk, time-to-value, and dependencies — and forms the evidence base for the recommendation in the decision brief.
 
-> This document is built in Workshop 5. It requires all working documents
-> from Workshops 1 through 4 to be complete before the scenario evaluation
-> can be done with confidence.
->
+> This document is built in Workshop 5. It requires that all working documents from Workshops 1 through 4 be complete before the scenario evaluation can be conducted with confidence.
+
 > See: workshop-5-scenarios/attendee-materials.md — Section 2
 > See: templates/working-documents/workload-placement-matrix.md
 > See: templates/working-documents/cost-taxonomy-baseline.md
@@ -49,10 +44,7 @@ We distinguish between four types of cost impact throughout this document.
 
 ## Scenario A — Optimise the Current Estate
 
-**What changes:** The current platform estate stays broadly as-is. Focus
-on utilisation improvement, cluster sprawl reduction, resource rightsizing,
-autoscaling, and tooling consolidation where duplication exists. No
-structural change to the platform model.
+**What changes:** The current platform estate stays broadly as-is. Focus on utilisation improvement, cluster sprawl reduction, resource rightsizing, autoscaling, and tooling consolidation where duplication exists. No structural change to the platform model.
 
 ### Cost impact
 
@@ -101,9 +93,7 @@ Notes:
 
 ## Scenario B — Consolidate Workloads Across Platforms
 
-**What changes:** Workloads identified as consolidation candidates in the
-placement matrix migrate to a preferred platform. Tooling, policy, and
-operational duplication is reduced. The estate becomes more intentional.
+**What changes:** Workloads identified as consolidation candidates in the placement matrix migrate to a preferred platform. Tooling, policy, and operational duplication are reduced. The estate becomes more intentional.
 
 ### Cost impact
 
@@ -149,10 +139,7 @@ Notes:
 
 ## Scenario C — Move to Managed Kubernetes
 
-**What changes:** Selected clusters or workloads move to a managed
-Kubernetes offering. Control plane management, upgrades, and infrastructure
-reliability shift to the managed service. Platform team capacity is
-redirected to higher-value work.
+**What changes:** Selected clusters or workloads move to a managed Kubernetes offering. Control-plane management, upgrades, and infrastructure reliability are shifted to the managed service. The platform team's capacity is redirected to higher-value work.
 
 ### Cost impact
 
@@ -206,9 +193,7 @@ Notes:
 
 ## Scenario D — Hybrid Portfolio
 
-**What changes:** The estate is structured deliberately. Justified exceptions
-stay where they are with documented reasons from the placement matrix.
-Consolidation candidates migrate. The estate is intentional — not sprawling.
+**What changes:** The estate is structured deliberately. Justified exceptions stay where they are with documented reasons from the placement matrix. Consolidation candidates migrate. The estate is intentional, not sprawling.
 
 ### Cost impact
 
