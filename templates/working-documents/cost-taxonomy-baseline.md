@@ -18,17 +18,11 @@
 
 ## What this document is
 
-This is the cost taxonomy and baseline model for the platform economics
-assessment. It organises all in-scope platform costs into six agreed
-buckets and provides a structured view of where spend goes across the
-Kubernetes estate.
+This is the cost taxonomy and baseline model for the platform economics assessment. It organises all in-scope platform costs into six agreed buckets and provides a structured view of where spend goes across the Kubernetes estate.
 
-> This document is created and populated in Workshop 2. The taxonomy
-> structure is agreed in the session. Costs are mapped into it using
-> data from the Data Request List.
+> This document was created and populated in Workshop 2. The taxonomy > structure is agreed in the session. Costs are mapped into it using > data from the Data Request List.
 >
-> It cannot be completed without the scope and cost treatment rules
-> agreed in Workshop 1 and the data gathered before Workshop 2.
+> It cannot be completed without the scope and cost treatment rules > agreed in Workshop 1 and the data gathered before Workshop 2.
 >
 > See: workshop-2-cost-baseline/attendee-materials.md
 > See: templates/working-documents/assumptions-register.md — Section 2
@@ -38,8 +32,7 @@ Kubernetes estate.
 
 ## Taxonomy structure — the six buckets
 
-All in-scope costs sit in one of these six buckets. If a cost does not
-fit, it goes into an Other bucket and is noted in the Assumptions Register.
+All in-scope costs sit in one of these six buckets. If a cost does not fit, it is placed in an Other bucket and noted in the Assumptions Register.
 
 | Bucket | What it covers |
 |--------|---------------|
@@ -87,8 +80,8 @@ fit, it goes into an Other bucket and is noted in the Assumptions Register.
 
 ## Bucket 3 — Platform Tooling
 
-> Populated in Workshop 2 using tooling list and invoices
-> Note duplication — same capability across multiple platforms
+> Populated in Workshop 2 using the tooling list and invoices
+> Note duplication, same capability across multiple platforms
 > See: templates/working-documents/data-request-list.md
 
 | Cost item | Platform(s) | Source | Monthly amount | Annual amount | Fixed or variable | Duplicated? | Confidence | Notes |
@@ -152,7 +145,7 @@ fit, it goes into an Other bucket and is noted in the Assumptions Register.
 
 ## Bucket 6 — Shared Services
 
-> Populated in Workshop 2 — often the least complete bucket in first pass
+> Populated in Workshop 2 — often the least complete bucket in the first pass
 > See: templates/working-documents/assumptions-register.md — Section 2
 
 | Cost item | Source | Monthly amount | Annual amount | Fixed or variable | Allocated? | Confidence | Notes |
@@ -167,7 +160,7 @@ fit, it goes into an Other bucket and is noted in the Assumptions Register.
 
 ## Baseline Summary
 
-> Complete this section once all six buckets are populated
+> Complete this section once all six buckets are populated.
 
 ### Total by bucket
 
@@ -203,7 +196,7 @@ fit, it goes into an Other bucket and is noted in the Assumptions Register.
 
 ## Key findings
 
-> Populate after the baseline summary is complete
+> Populate after the baseline summary is complete.
 
 **Where spend concentrates:**
 
