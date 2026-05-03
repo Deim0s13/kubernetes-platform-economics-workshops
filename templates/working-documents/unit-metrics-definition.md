@@ -18,21 +18,18 @@
 
 ## What this document is
 
-This document defines the agreed unit metrics for the platform economics
-assessment — the measures that translate total platform cost into cost
-per useful outcome.
+This document defines the agreed unit metrics for the platform economics assessment — the measures that translate total platform cost into cost per useful outcome.
 
-> The unit metrics shortlist is agreed in Workshop 1.
-> The full definitions and baseline values are completed in Workshop 3
-> once allocation rules have been agreed.
->
+> The unit metrics shortlist is agreed upon in Workshop 1.
+> The full definitions and baseline values will be completed in Workshop 3 once the allocation rules have been agreed.
+
 > This document cannot be completed without:
 > - The cost baseline from Workshop 2
 > - The allocation rules from Workshop 3
 >
 > See: workshop-1-scope/attendee-materials.md — Section 3
 > See: workshop-3-unit-economics/attendee-materials.md
-> See: templates/working-documents/assumptions-register.md — Section 3 and 4
+> See: templates/working-documents/assumptions-register.md — Sections 3 and 4
 
 ---
 
@@ -40,10 +37,7 @@ per useful outcome.
 
 Total spend is a number. Unit economics is what that number means.
 
-Instead of "we spend X on Kubernetes" we want to be able to say "a
-production application costs Y per month." That is the number leadership
-and Finance can act on — because it connects platform cost to something
-the business recognises.
+Instead of "we spend X on Kubernetes", we want to be able to say "a production application costs Y per month." That is the number leadership, and Finance can act on, because it connects platform cost to something the business recognises.
 
 ---
 
@@ -237,6 +231,5 @@ Notes:
 **The unit economics narrative:**
 
 ```
-In plain language — what do these numbers tell us about the cost
-efficiency of the platform estate?
+In plain language, what do these numbers tell us about the platform estate's cost efficien
 ```
