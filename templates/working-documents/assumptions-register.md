@@ -19,19 +19,11 @@
 
 ## What this document is
 
-The Assumptions Register is the single source of truth for every decision
-made about scope, cost treatment, allocation, and data confidence throughout
-the platform economics assessment.
+The Assumptions Register is the single source of truth for every decision made about scope, cost treatment, allocation, and data confidence throughout the platform economics assessment.
 
-Every time a decision is made in a workshop — what to include, how to
-treat a shared cost, which proxy to use — it is recorded here. This is
-what makes the final output defensible. When Finance or Procurement asks
-"why did you include that?" or "how did you treat shared tooling costs?"
-the answer is in this document, with a date and a version number.
+Every time a decision is made in a workshop, what to include, how to treat a shared cost, and which proxy to use, it is recorded here. This is what makes the final output defensible. When Finance or Procurement asks “why did you include that?” or “how did you treat shared tooling costs?” the answer is in this document, with a date and a version number.
 
-> This document is started in Workshop 0 and updated after every
-> subsequent workshop. It is never complete until the decision brief
-> has been finalised and reviewed.
+> This document is started in Workshop 0 and updated after every > subsequent workshop. It is never complete until the decision brief > has been finalised and reviewed.
 >
 > See: workshop-0-setup/attendee-materials.md
 
@@ -214,7 +206,7 @@ the answer is in this document, with a date and a version number.
 ## Section 6 — Known Gaps and Mitigations
 
 > Updated across all workshops
-> Any gap that affects confidence in the final output must be noted here
+> Any gap that affects confidence in the final output must be noted here.
 
 | Gap | Impact on output | Mitigation agreed | Owner | Status |
 |-----|----------------|------------------|-------|--------|
