@@ -17,13 +17,9 @@
 
 ## What this document is
 
-This is the master list of data needed to complete the platform economics
-assessment. Every item has a named owner, a due date, and a record of
-whether it has been received.
+This is the master list of data needed to complete the platform economics assessment. Every item has a named owner, a due date, and a record of whether it has been received.
 
-> This list is created and agreed in Workshop 1 and updated in Workshop 2
-> as gaps are identified. It is not complete until all items are either
-> received or formally closed with an agreed alternative.
+> This list is created and agreed upon in Workshop 1 and updated in Workshop 2 > as gaps are identified. It is not complete until all items are either > received or formally closed with an agreed alternative.
 >
 > See: workshop-1-scope/attendee-materials.md
 > See: workshop-2-cost-baseline/attendee-materials.md
@@ -34,17 +30,12 @@ whether it has been received.
 
 For each item:
 
-- **Owner** — the person responsible for providing the data. This does
-not have to be the person who owns the data — it just needs to be
-someone who can get it.
-- **Due date** — a realistic date, not an ideal date.
-- **Status** — Not started / In progress / Received / Closed (with note)
-- **Confidence** — once received, rate the data: H = measured,
-M = estimated, L = rough guess
+- **Owner:** the person responsible for providing the data. This does not have to be the person who owns the data; it just needs to be someone who can get it.
+- **Due date:** a realistic date, not an ideal date.
+- **Status:** Not started / In progress / Received / Closed (with note)
+- **Confidence:** once received, rate the data: H = measured, M = estimated, L = rough guess
 
-If an item cannot be provided, agree one of three approaches in Workshop 2:
-Estimate with a Low confidence rating, exclude with a note on the impact,
-or defer to a later date with a firm commitment.
+If an item cannot be provided, agree on one of three approaches in Workshop 2: Estimate with a Low confidence rating, exclude with a note on the impact, or defer to a later date with a firm commitment.
 
 ---
 
@@ -119,7 +110,7 @@ or defer to a later date with a firm commitment.
 ## Items still outstanding
 
 > Review this section at the start of Workshop 2 and again before Workshop 3.
-> Every outstanding item needs a decision — estimate, exclude, or defer.
+> Every outstanding item needs a decision: estimate, exclude, or defer.
 
 | Data item | Owner | Original due date | New due date or decision | Impact if not resolved |
 |-----------|-------|------------------|------------------------|----------------------|
@@ -131,8 +122,7 @@ or defer to a later date with a firm commitment.
 
 ## Closed items — with notes
 
-> Record items that were formally closed without being received, along
-> with the agreed mitigation. This is part of the audit trail.
+> Record items that were formally closed without being received, along with the agreed mitigation. This is part of the audit trail.
 
 | Data item | Closed date | Approach agreed | Impact on confidence |
 |-----------|------------|----------------|---------------------|
