@@ -18,21 +18,17 @@
 
 ## What this document is
 
-This is the showback view for the platform economics assessment. It maps
-platform cost to teams, products, or namespaces using the allocation rules
-agreed in Workshop 3.
+This is the showback view for the platform economics assessment. It maps platform cost to teams, products, or namespaces using the allocation rules agreed in Workshop 3.
 
-Showback means making costs visible — not billing anyone for them. The
-goal is transparency and accountability, not chargeback.
+Showback means making costs visible, not billing anyone for them. The goal is transparency and accountability, not chargeback.
 
-> This document is built in Workshop 3 using the cost baseline from
-> Workshop 2 and the allocation rules agreed in the same session.
->
+> This document is built in Workshop 3 using the cost baseline from Workshop 2 and the allocation rules agreed upon in that session.
+
 > It cannot be completed without:
 > - The cost baseline from Workshop 2
 > - The allocation rules from Workshop 3
 > - A namespace or team mapping from the data request list
->
+
 > See: workshop-3-unit-economics/attendee-materials.md — Section 4
 > See: templates/working-documents/cost-taxonomy-baseline.md
 > See: templates/working-documents/assumptions-register.md — Section 3
@@ -54,8 +50,7 @@ goal is transparency and accountability, not chargeback.
 
 ## Showback by team or namespace
 
-> Structured by whichever grouping makes most sense for this organisation —
-> team, product, namespace, or cost centre. Agree the grouping in Workshop 3.
+> Structured by whichever grouping makes most sense for this organisation, team, product, namespace, or cost centre. Agree on the grouping in Workshop 3.
 
 **Grouping used:** Team / Product / Namespace / Cost centre
 
@@ -73,7 +68,7 @@ goal is transparency and accountability, not chargeback.
 
 ## Showback by platform
 
-> How does cost break down across the platforms in scope?
+> How does the cost break down across the platforms in scope?
 
 | Platform | Monthly total | Annual total | % of total | Confidence | Notes |
 |----------|--------------|-------------|------------|------------|-------|
@@ -99,7 +94,7 @@ goal is transparency and accountability, not chargeback.
 
 ```
 Is the non-production share higher than expected?
-Are there clusters running continuously that could be ephemeral?
+Are there clusters that run continuously and could be ephemeral?
 ```
 
 ---
@@ -119,7 +114,7 @@ Are there clusters running continuously that could be ephemeral?
 
 ## Key findings from the showback view
 
-**Teams or namespaces with highest cost:**
+**Teams or namespaces with the highest cost:**
 
 ```
 Notes:
@@ -140,6 +135,5 @@ Notes — flag as quick wins in the 90-day plan
 **What the showback view enables:**
 
 ```
-What conversations does this data make possible that were not
-possible before?
+What conversations does this data make possible that were not possible before?
 ```
