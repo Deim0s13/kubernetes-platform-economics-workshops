@@ -9,21 +9,18 @@
 
 ## What this document is
 
-This is your reference sheet for Workshop 0. Bring it to the session —
-either printed or open on your device. There is nothing to complete in
-advance. Some sections have space for notes during the session.
+This is your reference sheet for Workshop 0. Bring it to the session, either printed or open on your device. There is nothing to complete in advance. Some sections have space for notes during the session.
 
 ---
 
 ## What we are doing today
 
-Workshop 0 is a setup session. We are not building anything yet — we are
-making sure the foundations are right before we do.
+Workshop 0 is a setup session. We are not building anything yet; we are making sure the foundations are right before we do.
 
-By the end of this session we will have agreed:
+By the end of this session, we will have agreed:
 
-- Which platforms and environments we are looking at
-- What time window we are working with
+- Which platforms and environments are we looking at
+- What time window are we working with
 - Who runs the workshops and how
 - Who owns which data inputs
 - Where working documents live and how we manage versions
@@ -45,18 +42,13 @@ By the end of this session we will have agreed:
 
 ## The frameworks — a quick reference
 
-You do not need to know these in depth today. This is here so the
-terms feel familiar when they come up.
+You do not need to know these in depth today. This is here so the terms feel familiar when they come up.
 
 **FinOps**
-Connects technical platform decisions to financial outcomes. We use it
-to move from "what do we spend?" to "what do we spend per useful
-outcome?" — a concept called unit economics.
+Connects technical platform decisions to financial outcomes. We use it to move from "what do we spend?" to "what do we spend per useful outcome?", a concept called unit economics.
 
 **TBM — Technology Business Management**
-A standard way of classifying technology costs so IT and Finance use
-the same language. Stops debates about what counts as a platform cost
-versus a workload cost.
+A standard way of classifying technology costs so that IT and Finance use the same language. Stops debates about what counts as a platform cost versus a workload cost.
 
 **DORA**
 Four metrics for software delivery performance:
@@ -77,8 +69,7 @@ Developer productivity across five areas:
 
 ## Section 1 — Scope
 
-*We will agree these together in the session. Use the space below to
-note what is agreed.*
+*We will on agree these together in the session. Use the space below to note what is agreed.*
 
 **Platforms in scope**
 
@@ -118,11 +109,10 @@ _______________________________________________
 
 _______________________________________________
 
----
 
 ## Section 2 — Delivery model
 
-*We will agree this together in the session.*
+*We will agree on this together in the session.*
 
 - [ ] Option A — [ORGANISATION] runs the workshops using the toolkit
 - [ ] Option B — Facilitated jointly
@@ -131,7 +121,6 @@ _______________________________________________
 
 _______________________________________________
 
----
 
 ## Section 3 — Minimum viable data
 
@@ -178,7 +167,7 @@ _______________________________________________
 
 ## Section 5 — Questions and notes
 
-*Use this space during the session for anything you want to capture.*
+*Use this space during the session to capture anything you want.*
 
 _______________________________________________
 
@@ -186,19 +175,16 @@ _______________________________________________
 
 _______________________________________________
 
----
 
 ## After this session
 
-Within 24 hours you will receive a recap email covering:
+Within 24, hours you will receive a recap email covering:
 
 - Decisions made in the session
 - Actions and owners
-- Workshop 1 confirmed — date, time, and what to expect
+- Workshop 1 confirmed, date, time, and what to expect.
 
-Workshop 1 will come with its own pre-read. Read it before the session
-— it takes around ten minutes and will make the time more useful
-for everyone.
+Workshop 1 will come with its own pre-read. Read it before the session; it takes about 10 minutes and will make the time more useful for everyone.
 
 ---
 
