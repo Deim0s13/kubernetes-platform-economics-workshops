@@ -17,14 +17,9 @@
 
 ## What this document is
 
-This is the workload placement matrix for the platform economics assessment.
-It provides a structured view of which workloads belong on which platform
-and why — based on agreed criteria rather than habit or history.
+This is the workload placement matrix for the platform economics assessment. It provides a structured view of which workloads belong on which platform and why, based on agreed criteria rather than habit or history.
 
-> This document is built in Workshop 5. It cannot be completed without the
-> cost baseline, unit economics, and value scorecard from previous workshops
-> — because the placement decision requires understanding both the cost and
-> the operational characteristics of each workload.
+> This document is built in Workshop 5. It cannot be completed without the > cost baseline, unit economics, and value scorecard from previous workshops, because the placement decision requires understanding both the cost and the operational characteristics of each workload.
 >
 > See: workshop-5-scenarios/attendee-materials.md — Section 1
 
@@ -32,14 +27,10 @@ and why — based on agreed criteria rather than habit or history.
 
 ## Why this matrix matters
 
-Without a placement matrix, the scenario comparison in Workshop 5 becomes
-a platform debate. With it, the conversation is grounded in workload
-characteristics rather than preference. That is what makes the final
+Without a placement matrix, the scenario comparison in Workshop 5 becomes a platform debate. With it, the conversation is grounded in workload characteristics rather than preference. That is what makes the final
 recommendation credible with Finance and Procurement.
 
-The matrix is also what distinguishes a justified exception from an
-unjustified one. Any workload that stays on its current platform after
-this assessment should have a documented reason in this matrix.
+The matrix is also what distinguishes a justified exception from an unjustified one. Any workload that stays on its current platform after this assessment should have a documented reason in this matrix.
 
 ---
 
@@ -96,8 +87,7 @@ Score each workload against six criteria using High, Medium, or Low.
 
 ### Consolidation candidates
 
-Low cloud coupling + high operational burden or high compliance intensity
-+ low migration complexity
+Low cloud coupling + high operational burden or high compliance intensity + low migration complexity
 
 | Workload | Primary reason | Preferred destination | Notes |
 |----------|---------------|----------------------|-------|
@@ -132,8 +122,7 @@ a managed Kubernetes offering
 
 ### Spike candidates
 
-Ambiguous scoring — needs further investigation before a placement
-decision can be made
+Ambiguous scoring — needs further investigation before a placement decision can be made
 
 | Workload | What is ambiguous | Recommended spike | Owner |
 |----------|-------------------|------------------|-------|
