@@ -17,28 +17,19 @@
 
 ## What this document is
 
-This is the value and risk scorecard for the platform economics assessment.
-It captures what the platform enables and what it protects — ensuring that
-cost decisions in Workshop 5 are made with a complete picture, not a
-cost-only view.
+This is the value and risk scorecard for the platform economics assessment. It captures what the platform enables and what it protects, ensuring that cost decisions in Workshop 5 are made with a complete picture, not a cost-only view.
 
-> This document is built entirely in Workshop 4. It cannot be meaningfully
-> completed before that session because the measures, proxies, and baselines
-> must be agreed in the room by the people who own the data.
->
+> This document is built entirely in Workshop 4. It cannot be meaningfully completed before that session because the measures, proxies, and baselines must be agreed upon in the room by the people who own the data.
+
 > See: workshop-4-value-scorecard/attendee-materials.md
 
 ---
 
 ## Why this scorecard exists
 
-Cost without value is an incomplete picture. A platform that looks expensive
-may be delivering significant returns in delivery speed, reliability, security
-posture, and developer productivity. The scorecard makes those returns visible
-so decisions in Workshop 5 are balanced — not just cost-optimised.
+Cost without value is an incomplete picture. A platform that looks expensive may deliver significant returns in terms of delivery speed, reliability, security posture, and developer productivity. The scorecard makes those returns visible, so decisions in Workshop 5 are balanced — not just cost-optimised.
 
-The scorecard uses DORA and SPACE as reference frameworks. Both are
-industry standards, not vendor constructs.
+The scorecard uses DORA and SPACE as reference frameworks. Both are industry standards, not vendor constructs.
 
 ---
 
