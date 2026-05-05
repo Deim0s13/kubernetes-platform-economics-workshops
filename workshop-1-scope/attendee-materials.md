@@ -9,26 +9,22 @@
 
 ## What this document is
 
-This is your reference and working sheet for Workshop 1. Bring it to the
-session — either printed or open on your device.
+This is your reference and working sheet for Workshop 1. Bring it to the session, either printed or open on your device.
 
-Some sections have space to capture decisions as we agree them in the room.
-Nothing needs to be completed in advance.
+Some sections have space to capture decisions as we agree them in the room. Nothing needs to be completed in advance.
 
 ---
 
 ## What we are doing today
 
-Workshop 1 is where the assessment begins in earnest. We are going to agree:
+Workshop 1 marks the beginning of the assessment in earnest. We are going to agree:
 
 - Which platforms, environments, and cost types are in scope
 - How we will treat shared and complex costs
-- Which unit metrics we will use to report cost per outcome
-- Who owns which data inputs and when we need them by
+- Which unit metrics will we use to report cost per outcome?
+- Who owns which data inputs, and when we need them by
 
-Everything we agree today goes into the Assumptions Register — a versioned
-record that makes the final output defensible with leadership, Finance,
-and Procurement.
+Everything we agree today goes into the Assumptions Register, a versioned record that makes the final output defensible with leadership, Finance, and Procurement.
 
 ---
 
@@ -91,7 +87,7 @@ Confidence ratings: **H** = High | **M** = Medium | **L** = Low
 
 ## Section 2 — Cost Treatment Rules
 
-*We will agree each rule in the session. Record the decision and reason below.*
+*We will agree on each rule in the session. Record the decision and reason below.*
 
 ### Rule 1 — Shared platform costs
 
@@ -154,8 +150,7 @@ Reason:
 
 ## Section 3 — Unit Metrics Shortlist
 
-*We will shortlist three to five metrics in the session. Circle or tick
-the ones agreed, and note any data dependencies.*
+*We will shortlist three to five metrics in the session. Circle or tick the ones agreed, and note any data dependencies.*
 
 | Unit metric | Selected? | Data needed |
 |-------------|-----------|-------------|
@@ -210,7 +205,7 @@ Use this space to capture key decisions during the session.*
 
 ## Section 6 — Questions and Notes
 
-*Use this space during the session for anything you want to capture.*
+*Use this space during the session to capture anything you want.*
 
 ```
 Notes:
@@ -220,16 +215,14 @@ Notes:
 
 ## After this session
 
-Within 24 hours you will receive a recap email covering:
+Within 24 hours, you will receive a recap email covering:
 
 - Decisions made in the session
-- The Assumptions Register v1 — saved, versioned, and shared
-- The data request list with your name and due date confirmed
-- Workshop 2 confirmed — date, time, and what to expect
+- The Assumptions Register v1 saved, versioned, and shared
+- The data request list, including your name and due date, is confirmed.
+- Workshop 2 confirmed date, time, and what to exp
 
-**Action for data owners:** please action your data request items
-as soon as possible after this session. The sooner the data comes in,
-the stronger the baseline will be in Workshop 2.
+**Action for data owners:** please action your data request items as soon as possible after this session. The sooner the data comes in, the stronger the baseline will be in Workshop 2.
 
 ---
 
