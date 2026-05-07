@@ -9,11 +9,9 @@
 
 ## What this document is
 
-This is your reference and working sheet for Workshop 2. Bring it to the
-session — either printed or open on your device.
+This is your reference and working sheet for Workshop 2. Bring it to the session, either printed or open on your device.
 
-Some sections have space to capture decisions and findings as we work
-through them in the room. Nothing needs to be completed in advance.
+Some sections have space to capture decisions and findings as we work through them in the room. Nothing needs to be completed in advance.
 
 ---
 
@@ -21,13 +19,12 @@ through them in the room. Nothing needs to be completed in advance.
 
 Workshop 2 is where we start building the cost model. We are going to:
 
-- Agree a cost taxonomy — a structured way of grouping spend
-- Map known spend into the taxonomy
-- Identify what is fixed versus variable
-- Review data gaps and confirm owners and dates
+- Agree on a cost taxonomy — a structured way of grouping spend.
+- Map known spend into the taxonomy.
+- Identify what is fixed versus variable.
+- Review data gaps and confirm owners and dates.
 
-By the end of this session we will have a baseline model skeleton that
-is ready to populate as the remaining data comes in.
+By the end of this session, we will have a baseline model skeleton ready to populate as the remaining data comes in
 
 ---
 
@@ -48,8 +45,7 @@ Every cost in scope sits in one of these six buckets.
 
 ## Section 1 — Mapping Spend
 
-Work through each bucket in the session. Use this section to capture
-what is agreed.
+Work through each bucket in the session. Use this section to capture what is agreed.
 
 ### Bucket 1 — Cloud Infrastructure
 
@@ -187,7 +183,7 @@ Complete this together at the end of the mapping exercise.
 
 ## Section 3 — Data Gaps
 
-For each gap agree an approach, confirm the owner, and set a date.
+For each gap, agree on an approach, confirm the owner, and set a date.
 
 | Data item | Approach | Owner | Date | Notes |
 |-----------|----------|-------|------|-------|
@@ -200,9 +196,7 @@ For each gap agree an approach, confirm the owner, and set a date.
 
 ## Section 4 — Key Findings So Far
 
-Use this space to note anything that stood out during the session —
-numbers that surprised the group, patterns worth investigating, or
-early signals about where the levers are.
+Use this space to note anything that stood out during the session, numbers that surprised the group, patterns worth investigating, or early signals about where the levers are.
 
 ```
 Findings:
@@ -220,15 +214,14 @@ Notes:
 
 ## After this session
 
-Within 24 hours you will receive a recap email covering:
+Within 24 hours, you will receive a recap email covering:
 
 - Decisions made in the session
-- The updated baseline model — saved, versioned, and shared
-- Outstanding data items — please action these as soon as possible
-- Workshop 3 confirmed — date, time, and what to expect
+- The updated baseline model was saved, versioned, and shared
+- Outstanding data items, please action these as soon as possible.
+- Workshop 3 confirmed, date, time, and what to expect
 
-The model will be updated as new data comes in before Workshop 3.
-A revised version will be shared before the next session.
+The model will be updated as new data comes in before Workshop 3. A revised version will be shared before the next session.
 
 ---
 
