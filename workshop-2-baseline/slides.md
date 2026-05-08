@@ -17,12 +17,9 @@
 
 ## How to use this file
 
-Each slide is written with a title, layout note, content, and speaker notes.
-Build your presentation deck from this file. This file is the source of truth
-— if you update the deck, update this file to match and bump the version number.
+Each slide includes a title, layout note, content, and speaker notes. Build your presentation deck from this file. This file is the source of truth. If you update the deck, update this file to match and bump the version number.
 
-Speaker notes are written in your voice — conversational and plain. They are
-not a script to read verbatim but a guide for what to cover and how to frame it.
+Speaker notes are written in your voice, conversational and plain. They are not a script to read verbatim, but a guide for what to cover and how to frame it.
 
 ---
 
@@ -42,8 +39,7 @@ Workshop 2 — Cost Taxonomy and Baseline Model
 
 ### Speaker Notes
 
-Open with the slide visible and move straight into the recap of Workshop 1.
-Do not linger here.
+Open with the slide visible and move straight into the recap of Workshop 1. Do not linger here.
 
 ---
 
@@ -63,12 +59,9 @@ Setup         Scope and     Cost          Unit          Value and     Scenarios
 
 ### Speaker Notes
 
-"In Workshop 1 we locked in scope, agreed cost treatment rules, and
-built the data request list.
+"In Workshop 1, we locked in scope, agreed on cost treatment rules, and built the data request list.
 
-Today we start building the cost model. We are going to agree a cost
-taxonomy and map known spend into it. By the end of this session we
-will have a baseline skeleton ready to populate as remaining data comes in."
+Today, we start building the cost model. We are going to agree on a cost taxonomy and map known spend into it. By the end of this session, we will have a baseline skeleton ready to populate as remaining data comes in."
 
 ---
 
@@ -81,13 +74,13 @@ will have a baseline skeleton ready to populate as remaining data comes in."
 ```
 By the end of this session we will have:
 
-A cost taxonomy — agreed and understood by the room
+A cost taxonomy: agreed and understood by the room
 
-A baseline model skeleton — known spend mapped in
+A baseline model skeleton: known spend mapped in
 
-A fixed versus variable cost split — first pass
+A fixed versus variable cost split, first pass
 
-A clear view of gaps — with owners and dates
+A clear view of gaps, with owners and dates
 
 An initial picture of where spend concentrates
 ```
@@ -96,9 +89,7 @@ An initial picture of where spend concentrates
 
 "We will not have a complete model today. That is fine and expected.
 
-What we need is the right structure and a clear view of what we know,
-what we are estimating, and what we still need. The model will continue
-to populate as the remaining data comes in."
+What we need is the right structure and a clear view of what we know, what we are estimating, and what we still need. The model will continue to populate as the remaining data comes in."
 
 ---
 
@@ -124,9 +115,7 @@ and argued over                     and trusted
 
 ### Speaker Notes
 
-"Platform cost without structure is just a collection of numbers.
-With the right structure it becomes a model Finance can audit,
-leadership can act on, and your team can use to make better decisions.
+"Platform cost without structure is just a collection of numbers. With the right structure, it becomes a model Finance can audit, leadership can act on, and your team can use to make better decisions.
 
 That is what the taxonomy gives us."
 
@@ -163,9 +152,7 @@ description each
 
 "There are six buckets. Every cost in scope sits in one of these.
 
-We are using a TBM-aligned taxonomy — Technology Business Management
-is an industry standard for classifying technology costs. Finance will
-recognise this structure. That is the point.
+We are using a TBM-aligned taxonomy. Technology Business Management is an industry standard for classifying technology costs. Finance will recognise this structure. That is the point.
 
 Let me walk you through each one before we start mapping spend."
 
@@ -195,13 +182,9 @@ What to look for:
 
 ### Speaker Notes
 
-"Cloud infrastructure is typically the biggest bucket — and the most
-visible on a cloud bill.
+"Cloud infrastructure is typically the biggest bucket, and the most visible on a cloud bill.
 
-A few things worth looking for as we map this: idle or oversized node
-pools, egress costs that suggest inefficient data movement, and load
-balancer proliferation — one load balancer per service is a common
-and expensive anti-pattern."
+A few things worth looking for as we map this: idle or oversized node pools, egress costs that suggest inefficient data movement, and load balancer proliferation, one load balancer per service is a common and expensive anti-pattern."
 
 ---
 
@@ -212,8 +195,7 @@ and expensive anti-pattern."
 ### Content
 
 ```
-Fees charged by cloud providers for managed Kubernetes services.
-These are separate from the compute cost of running the nodes.
+Fees charged by cloud providers for managed Kubernetes services. These are separate from the compute cost of running the nodes.
 
 Examples:
 - EKS cluster management fees
@@ -227,12 +209,9 @@ What to look for:
 
 ### Speaker Notes
 
-"Managed service fees are easy to miss because they sit separately
-from the compute line on a cloud bill. But across a large estate they
-add up — particularly if cluster counts are higher than they need to be.
+"Managed service fees are easy to miss because they sit separately from the compute line on a cloud bill. But across a large estate, they add up, particularly if cluster counts are higher than necessary.
 
-This is one of the places where cluster sprawl becomes visible as a
-cost driver."
+This is one of the places where cluster sprawl becomes visible as a cost driver."
 
 ---
 
@@ -243,8 +222,7 @@ cost driver."
 ### Content
 
 ```
-Everything that makes the platforms operable —
-above and beyond raw infrastructure.
+Everything that makes the platforms operable, above and beyond raw infrastructure.
 
 Observability       Monitoring, logging, alerting, dashboards
 Security            Scanning, policy enforcement, secrets management
@@ -259,12 +237,9 @@ What to look for:
 
 ### Speaker Notes
 
-"Platform tooling is often where the most interesting findings sit —
-particularly if the same capability exists across multiple platforms.
+"Platform tooling is often where the most interesting findings sit, particularly if the same capability exists across multiple platforms.
 
-Separate observability stacks, separate security tooling, separate
-CI/CD pipelines — each is a real cost in money, in people time, and
-in cognitive overhead. We will look explicitly for duplication here."
+Separate observability stacks, separate security tooling, separate CI/CD pipelines; each is a real cost in money, in people time, and in cognitive overhead. We will look explicitly for duplication here."
 
 ---
 
@@ -275,8 +250,7 @@ in cognitive overhead. We will look explicitly for duplication here."
 ### Content
 
 ```
-Platform licences, support agreements, and recurring software fees.
-Typically fixed costs — do not change with usage in the short term.
+Platform licences, support agreements, and recurring software fees. Typically fixed costs, do not change with usage in the short term.
 
 What to look for:
 - Subscriptions that predate current platform usage patterns
@@ -287,28 +261,22 @@ What to look for:
 
 ### Speaker Notes
 
-"Subscriptions are straightforward to identify but often not reviewed
-regularly. A licence that made sense two years ago may no longer reflect
-how the platform is actually being used.
+"Subscriptions are straightforward to identify but often not reviewed regularly. A licence that made sense two years ago may no longer reflect how the platform is actually being used.
 
-Renewal dates are worth capturing here — they become relevant in
-Workshop 5 when we look at scenarios and timing."
+Renewal dates are worth capturing here; they become relevant in Workshop 5 when we look at scenarios and timing."
 
 ---
 
 ## Slide 10: Bucket 5 — Operating Effort
 
-**Layout:** Title at top, explanation, examples, and note on how
-we capture it
+**Layout:** Title at top, explanation, examples, and a note on how we capture it
 
 ### Content
 
 ```
-The time your platform team spends running, maintaining,
-and improving the platforms.
+The time your platform team spends running, maintaining, and improving the platforms.
 
-Often the largest hidden cost —
-and the one most commonly left out of cost reviews.
+Often the largest hidden cost, and the one most commonly left out of cost reviews.
 
 Examples:
 - Upgrade and patching cycles
@@ -317,21 +285,16 @@ Examples:
 - Building and maintaining golden paths and standards
 
 How we capture it:
-A rough time split across activities is enough.
-We do not need timesheets — we need a reasonable estimate.
+A rough time split across activities is enough. We do not need timesheets, we need a reasonable estimate.
 ```
 
 ### Speaker Notes
 
-"This is the bucket that gets the most pushback — because it is an
-estimate rather than a number on an invoice.
+"This is the bucket that gets the most pushback, because it is an estimate rather than a number on an invoice.
 
-But if we leave it out, we are missing a significant part of the true
-cost picture. A platform that looks cheap on the cloud bill can be
-very expensive when you factor in the team time it consumes.
+But if we leave it out, we are missing a significant part of the true cost picture. A platform that looks cheap on the cloud bill can be very expensive when you factor in the team time it consumes.
 
-A rough percentage split is all we need — we will rate it Low or
-Medium confidence and note the assumptions."
+A rough percentage split is all we need; we will rate it Low or Medium confidence and note the assumptions."
 
 ---
 
@@ -342,8 +305,7 @@ Medium confidence and note the assumptions."
 ### Content
 
 ```
-Costs that sit beneath the platforms and serve them —
-without being attributable to one platform alone.
+Costs that sit beneath the platforms and serve them, without being attributable to any one platform.
 
 Examples:
 - Identity and access management (IAM)
@@ -352,17 +314,14 @@ Examples:
 - Centralised certificate management
 
 Note:
-Often the least complete bucket in the first pass.
-Capture what we can — note gaps and move on.
+Often, the least complete bucket is in the first pass. Capture what we can, note gaps and move on.
 ```
 
 ### Speaker Notes
 
-"Shared services are often the hardest to attribute because they serve
-everything — not just the Kubernetes estate.
+"Shared services are often the hardest to attribute because they serve everything, not just the Kubernetes estate.
 
-We will capture what we can, note what we cannot attribute, and flag
-it in the Assumptions Register. A partial view is better than no view."
+We will capture what we can, note what we cannot attribute, and flag it in the Assumptions Register. A partial view is better than no view."
 
 ---
 
@@ -373,16 +332,16 @@ it in the Assumptions Register. A partial view is better than no view."
 ### Content
 
 ```
-For each cost bucket we will:
+For each cost bucket, we will:
 
-1   Ask what spend is known and what its source is
+1   Ask what spending is known and what its source is
 
 2   Enter the amount with a confidence rating
     H = measured   M = estimated   L = rough guess
 
 3   Note any gaps or questions
 
-4   Move on — we do not get stuck on any single line item
+4   Move on, we do not get stuck on any single line item
 
 The goal is a populated skeleton — not a finished model.
 ```
@@ -391,13 +350,9 @@ The goal is a populated skeleton — not a finished model.
 
 "We are going to work through the six buckets now.
 
-The key thing is pace — roughly six to seven minutes per bucket on
-average. Cloud infrastructure will take longer. Shared services will
-probably be shorter.
+The key thing is pace, roughly six to seven minutes per bucket on average. Cloud infrastructure will take longer. Shared services will probably be shorter.
 
-If something surprises us — a number that looks too high or a gap
-that is bigger than expected — we note it and move on. The finding
-is the finding. Analysis comes later.
+If something surprises us, a number that looks too high or a gap that is bigger than expected, we note it and move on. The finding is the finding. Analysis comes later.
 
 Let us start with cloud infrastructure."
 
@@ -424,43 +379,37 @@ Examples:                           Examples:
 - Support agreements                - Storage usage
 - Licence fees                      - Data egress
 
-Which lever is available — and how quickly can you pull it?
+Which lever is available, and how quickly can you pull it?
 ```
 
 ### Speaker Notes
 
-"Now that we have spend mapped in, I want to work through a simple
-but important distinction.
+"Now that we have spent time mapping it, I want to work through a simple but important distinction.
 
-Fixed costs require structural decisions — renegotiating a contract,
-consolidating platforms, changing model. Those take time and planning.
+Fixed costs require structural decisions, renegotiating contracts, consolidating platforms, and changing the model. Those take time and planning.
 
-Variable costs respond to operational decisions — rightsizing,
-autoscaling, better utilisation. Those can often be pulled more quickly.
+Variable costs respond to operational decisions. rightsizing, autoscaling, better utilisation. Those can often be pulled more quickly.
 
-Understanding the split tells us which levers are available and helps
-us build realistic scenarios in Workshop 5."
+Understanding the split tells us which levers are available and helps us build realistic scenarios in Workshop 5."
 
-Work through the taxonomy and tag each line item. Where something is
-genuinely mixed, note it as partially fixed and partially variable.
+Work through the taxonomy and tag each line item. Where something is genuinely mixed, note it as partially fixed and partially variable.
 
 ---
 
 ## Slide 14: Data Gaps Review
 
-**Layout:** Title at top, table with gap, approach, owner, and date
-columns — to be populated live
+**Layout:** Title at top, table with gap, approach, owner, and date columns, to be populated live
 
 ### Content
 
 ```
-For each gap we agree one of three approaches:
+For each gap, we agree on one of three approaches:
 
 Estimate    Use a reasonable estimate with a Low confidence rating
 
-Wait        Data is coming — confirm a firm date
+Wait        Data is coming, confirm a firm date
 
-Exclude     Genuinely not available — note the impact on confidence
+Exclude     Genuinely not available, note the impact on confidence
 
 Gap         Approach    Owner    Date
 [ITEM]
@@ -472,12 +421,9 @@ Gap         Approach    Owner    Date
 
 "Let us look at what we still need.
 
-For each gap I want to agree one of those three things and confirm
-who owns it and by when.
+For each gap, I want to agree on one of those three things and confirm who owns it and by when.
 
-Be direct about gaps that are blocking the model. If we can agree an
-estimate now for something the owner is uncertain about, that is
-usually better than waiting."
+Be direct about gaps that are blocking the model. If we can agree on an estimate now for something the owner is uncertain about, that is usually better than waiting."
 
 Update the Assumptions Register with every gap decision.
 
@@ -485,8 +431,7 @@ Update the Assumptions Register with every gap decision.
 
 ## Slide 15: What the Baseline Is Telling Us
 
-**Layout:** Title at top, three summary points populated live
-from session findings
+**Layout:** Title at top, three summary points populated live from session findings
 
 ### Content
 
@@ -503,12 +448,9 @@ Key gaps still to close:
 
 ### Speaker Notes
 
-"Before we close I want to summarise what the baseline is already
-telling us — even at this early stage.
+"Before we close, I want to summarise what the baseline is already telling us, even at this early stage.
 
-Populate this slide live from what has emerged in the session. Even
-a partial picture is useful — it gives the group a sense of progress
-and signals that the model is already producing insight."
+Populate this slide live from what has emerged in the session. Even a partial picture is useful, it gives the group a sense of progress and signals that the model is already producing insight."
 
 ---
 
@@ -519,13 +461,13 @@ and signals that the model is already producing insight."
 ### Content
 
 ```
-Cost taxonomy agreed — six buckets, understood by the room
+Cost taxonomy agreed, six buckets, understood by the room
 
-Baseline skeleton populated — known spend mapped in
+Baseline skeleton populated, known spend mapped in
 
-Fixed versus variable split — first pass complete
+Fixed versus variable split, first pass complete
 
-Data gaps list updated — approach, owner, and date confirmed
+Data gaps list updated, approach, owner, and date confirmed
 
 Assumptions Register updated
 
@@ -536,23 +478,19 @@ Workshop 3 confirmed — [DATE] | [TIME]
 
 "Here is where we have landed."
 
-Read through the list and confirm each item is genuinely agreed.
-If anything is still open, name it and confirm who is closing it and when.
+Read through the list and confirm each item is genuinely agreed. If anything is still open, name it and confirm who is closing it and when.
 
 Then ask the final question:
 
-"Is there anything in what we have built today that concerns you —
-or anything that looks wrong before we go further?"
+"Is there anything in what we have built today that concerns you, or anything that looks wrong before we go further?"
 
-If something looks wrong, address it now. A flawed baseline that
-goes unchallenged here will cause bigger problems in Workshop 5.
+If something looks wrong, address it now. A flawed baseline that goes unchallenged here will cause bigger problems in Workshop 5.
 
 ---
 
 ## Slide 17: See You in Workshop 3
 
-**Layout:** Clean closing slide — next session details centred,
-plenty of white space
+**Layout:** Clean closing slide, next session details centred, plenty of white space
 
 ### Content
 
@@ -563,18 +501,13 @@ Workshop 3 — Allocation Rules and Unit Economics
 
 Pre-read coming your way before the session.
 
-Please action any outstanding data items —
-the model updates as data comes in.
+Please action any outstanding data items, the model updates as data comes in.
 ```
 
 ### Speaker Notes
 
-"Thanks for the work today. Workshop 3 is where we move from total
-cost to unit economics — cost per app, cost per tenant, cost per
-environment. That is the number that will land with leadership and Finance.
+"Thanks for the work today. Workshop 3 is where we move from total cost to unit economics, cost per app, and cost per tenant, cost per environment. That is the number that will land with leadership and Finance.
 
-You will get a short pre-read before the session. And please action
-any outstanding data items — the model will be updated and shared
-before Workshop 3 as new data comes in."
+You will get a short pre-read before the session. And please action any outstanding data items, the model will be updated and shared before Workshop 3 as new data comes in."
 
 Close the session cleanly.
