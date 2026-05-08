@@ -9,20 +9,17 @@
 
 ## What this document is
 
-This is your reference and working sheet for Workshop 3. Bring it to the
-session — either printed or open on your device.
+This is your reference and working sheet for Workshop 3. Bring it to the session, either printed or open on your device.
 
-Some sections have space to capture decisions and values as we work through
-them in the room. Nothing needs to be completed in advance.
+Some sections have space to capture decisions and values as we work through them in the room. Nothing needs to be completed in advance.
 
 ---
 
 ## What we are doing today
 
-Workshop 3 is where the cost model becomes useful to leadership. We are
-moving from total cost to unit economics — cost per useful outcome.
+Workshop 3 is where the cost model becomes useful to leadership. We are moving from total cost to unit economics, cost per useful outcome.
 
-By the end of this session we will have:
+By the end of this session, we will have:
 
 - Agreed allocation rules for shared costs
 - Baseline values for our three to five unit metrics
@@ -35,7 +32,7 @@ By the end of this session we will have:
 
 Total spend is a number. Unit economics is what that number means.
 
-Instead of "we spend X on Kubernetes" we want to be able to say:
+Instead of "we spend X on Kubernetes", we want to be able to say:
 
 - "A production application costs Y per month."
 - "Each tenant costs Z per quarter."
@@ -47,7 +44,7 @@ Those are the numbers leadership and Finance can act on.
 
 ## Section 1 — Allocation Rules
 
-We will agree these together in the session. Record what is decided below.
+We will agree on these together in the session. Record what is decided below.
 
 ### Shared platform costs
 
@@ -244,7 +241,7 @@ Complete this together at the end of the metric-building exercise.
 
 ## Section 4 — Showback View
 
-First-pass cost mapped to teams, products, or namespaces.
+First-pass cost is mapped to teams, products, or namespaces.
 
 | Team / namespace | Compute | Tooling | Ops effort | Total | % of total |
 |-----------------|---------|---------|------------|-------|------------|
@@ -263,9 +260,7 @@ Key findings from the showback view:
 
 ## Section 5 — Key Findings
 
-Use this space to capture findings that emerged during the session —
-numbers that surprised the group, patterns worth investigating, or
-early signals about where the levers are.
+Use this space to capture findings that emerged during the session, numbers that surprised the group, patterns worth investigating, or early signals about where the levers are.
 
 ```
 Findings:
@@ -283,17 +278,14 @@ Notes:
 
 ## After this session
 
-Within 24 hours you will receive a recap email covering:
+Within 24 hours, you will receive a recap email covering:
 
 - Decisions made in the session
-- The unit economics model — saved, versioned, and shared
-- The showback view — saved, versioned, and shared
-- Workshop 4 confirmed — date, time, and what to expect
+- The unit economics model, saved, versioned, and shared
+- The showback view, saved, versioned, and shared
+- Workshop 4 confirmed, date, time, and what to expect
 
-Workshop 4 looks at the other side of the equation — not just what
-the platform costs, but what it enables. We will build a value and
-risk scorecard so cost is not the only lens leadership is looking
-through.
+Workshop 4 looks at the other side of the equation, not just what the platform costs, but what it enables. We will build a value and risk scorecard so cost is not the only lens leadership is looking through.
 
 ---
 
